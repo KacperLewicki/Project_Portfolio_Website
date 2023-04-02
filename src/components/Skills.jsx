@@ -57,7 +57,7 @@ const Skills = () => {
 
               
                 <div className="flex items-end justify-between flex-wrap-reverse py-[50px] md:py-[100px] relative">
-                    {/* SERVICES START */}
+                    
                     <div className="md:max-w-[65%] flex flex-col gap-6 md:gap-10">
                         <Service
                             num="1"
