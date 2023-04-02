@@ -17,7 +17,7 @@ const Achievements = () => {
                         className="hidden md:block absolute top-0 left-0"
                     />
                     <div className="flex items-center text-white relative">
-                        {/* START */}
+                       
                         <div className="flex items-center justify-center text-center flex-col gap-3 lg:gap-6">
                             <div className="text-[34px] md:text-[50px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] font-light flex">
                                 <NumInc num={item.year} />+
@@ -29,7 +29,7 @@ const Achievements = () => {
                                 }}
                             />
                         </div>
-                        {/* END */}
+                        
                     </div>
                 </Div>
             ))}

@@ -1,4 +1,4 @@
-import p2 from "./assets/Diamonds.png";
+import p2 from "./assets/CMSWEB.png";
 import p1 from "./assets/CMS.png";
 import p3 from "./assets/Budget-App.png";
 
@@ -30,7 +30,7 @@ export const achievements = [
     },  
     {
         id: 2,
-        year: 1,
+        year: 3,
         description: "YEARS<br />SINCE<br />STARTED",
     },
    
@@ -41,7 +41,7 @@ export const achievements = [
     },
     {
         id: 4,
-        year: 2,
+        year: 10,
         description: "COMMUNITY<br />POSTS",
     },
 ];

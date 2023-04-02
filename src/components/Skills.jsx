@@ -35,15 +35,15 @@ const Skills = () => {
             id="skills"
             className="blue py-[50px] md:py-[100px] relative overflow-hidden"
         >
-            {/* BACKGROUND ELEMENTS START */}
+            
             <div className="sec-3-bg-gradient-1" />
             <div className="sec-3-bg-gradient-2" />
             <motion.img className="sec-3-p-e-1" style={{ y: y1 }} src={pe1} />
             <motion.img className="sec-3-p-e-2" style={{ y: y2 }} src={pe2} />
             <motion.img className="sec-3-p-e-3" style={{ y: y3 }} src={pe3} />
-            {/* BACKGROUND ELEMENTS END */}
+           
             <Wrapper>
-                {/* SKILL ICONS START */}
+               
                 <Div className="grid grid-cols-4 gap-3 md:grid-cols-11 relative">
                     <SkillIcon path={sk1} />
                     <SkillIcon path={sk2} />
@@ -53,16 +53,17 @@ const Skills = () => {
                     <SkillIcon path={sk6} />
                     <SkillIcon path={sk7} />
                 </Div>
-                {/* SKILL ICONS END */}
+                
 
-                {/* SERVICES SECTION START */}
+              
                 <div className="flex items-end justify-between flex-wrap-reverse py-[50px] md:py-[100px] relative">
                     {/* SERVICES START */}
                     <div className="md:max-w-[65%] flex flex-col gap-6 md:gap-10">
                         <Service
                             num="1"
                             title="CMS-app-in-express-mongodb"
-                            desc="The project was to show data transfer between the user and the database."
+                            desc="The webpage for storing data and quizzes is based on PUGjs templates, 
+                            which are used to create frontend layout on backend side with usage of express.js and MongoDB."
                             data={[
                                 "Javascript",
                                 "Express.js",
@@ -72,31 +73,37 @@ const Skills = () => {
                         />
                         <Service
                             num="2"
-                            title="React-app-ToDoList and TypeScript-app-ToDoList"
-                            desc="The project was to show my skills in React and TypeScript"
+                            title="Registration form and login on the website"
+                            desc="One of my projects is a login page that communicates via API. 
+                            On Backend, a logic validating the input data with usage of MySQL, express.js and cors is implemented. 
+                            If correct data is provided, you are redirected to a home page of a project."
                             data={[
                                 "Javascript",
                                 "React",
-                                "Typescript",
+                                "Express.js",
+                                "MySQL",
+                                "Bootstrap",
+                                "Cors",
+                                "Axios",
                                 
                             ]}
                         />
                         <Service
                             num="3"
                             title="Diamonds-game"
-                            desc="The project (game) of moving rows and columns with different jewels
-                            or diamonds to make a line of identical gems.
-                            Then the line disappears and the player receives points depending on the type of hand obtained."
+                            desc="The Diamonds game project is about moving rows and columns of diamonds. 
+                            If you connect enough of one kind of them, they will disappear and you will get points. Empty fields will refill."
                             data={[
                                 "Javascript",
+                                "OOP"
                                 
                             ]}
                         />
                         
                     </div>
-                    {/* SERVICES END */}
+                   
 
-                    {/* SECTION HEADING START */}
+                  
                     <div className="flex flex-wrap justify-center gap-2 md:gap-0 md:flex-col text-[40px] md:text-[90px] 
                     2xl:text-[110px] 
                     leading-[40px] md:leading-[95px] 2xl:leading-[123px] 
@@ -110,9 +117,9 @@ const Skills = () => {
                 
                        
                     </div>
-                    {/* SECTION HEADING END */}
+                   
                 </div>
-                {/* SERVICES SECTION END */}
+                
 
                 <Portfolio />
                 <Achievements />

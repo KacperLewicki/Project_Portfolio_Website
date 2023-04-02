@@ -12,8 +12,6 @@ const Form = () => {
         e.preventDefault();
         setLoading(true);
 
-        // Below credentials are required to link your email id
-        // with contact form you can create your credentials in emailjs.com
         send(
             "service_9q0ehuq", // Service ID
             "template_p3brmno", // Template ID
@@ -49,7 +47,7 @@ const Form = () => {
         <Div className="max-w-[1200px] mx-auto">
             <ToastContainer />
 
-            {/* LOADER START */}
+            
             {loading && (
                 <div className="w-full h-full absolute bg-white/[.5] top-0 
                 left-0 flex justify-center items-center">
@@ -65,16 +63,16 @@ const Form = () => {
                     </svg>
                 </div>
             )}
-            {/* LOADER START */}
+           
 
             <form
                 id="queryForm"
                 className="flex flex-col gap-8"
                 onSubmit={formSubmitHandler}
             >
-                {/* ROW START */}
+               
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
-                    {/* NAME - FORM FIELD START */}
+                   
                     <div className="flex flex-col gap-2">
                         <label
                             htmlFor="from_name"
@@ -91,9 +89,9 @@ const Form = () => {
                             onChange={onChange}
                         />
                     </div>
-                    {/* NAME - FORM FIELD END */}
+                    
 
-                    {/* EMAIL - FORM FIELD START */}
+                    
                     <div className="flex flex-col gap-2">
                         <label
                             htmlFor="from_email"
@@ -110,11 +108,11 @@ const Form = () => {
                             onChange={onChange}
                         />
                     </div>
-                    {/* EMAIL - FORM FIELD END */}
+                    
                 </div>
-                {/* ROW END */}
+               
 
-                {/* MESSAGE - FORM FIELD START */}
+               
                 <div className="flex flex-col gap-2">
                     <label
                         htmlFor="message"
@@ -130,13 +128,13 @@ const Form = () => {
                         onChange={onChange}
                     />
                 </div>
-                {/* MESSAGE - FORM FIELD END */}
+                
 
-                {/* SUBMIT BUTTON */}
+               
                 <button className="bg-[#111111] h-[64px] max-w-[585px] text-[16px] transition-transform active:scale-[0.95]">
                     Send Contact Request Now
                 </button>
-                {/* SUBMIT BUTTON */}
+                
             </form>
         </Div>
     );

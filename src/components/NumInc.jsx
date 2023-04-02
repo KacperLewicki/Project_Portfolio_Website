@@ -21,7 +21,7 @@ function NumInc({ num }) {
             duration: 2,
         });
 
-        // return controls?.stop;
+        
     }, [isInView]);
 
     return <motion.div ref={ref}>{rounded}</motion.div>;
