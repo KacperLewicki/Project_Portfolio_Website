@@ -1,5 +1,4 @@
 import React from "react";
-
 import Wrapper from "./Wrapper";
 import gmailIcon from "../assets/email-icon.png";
 import { scrollTo } from "../helper";
@@ -14,7 +13,7 @@ const Footer = () => {
                         <div className="w-[35px] h-[35px] rounded-full bg-[#252525] flex justify-center items-center">
                             <img src={gmailIcon} alt="" className="w-[18px]" />
                         </div>
-                        <div>Kacper.lewicki@onet.pl</div>
+                        <div>kacperlewicki.js@gmail.com</div>
                     </div>
                     <ul className="flex 2xl:text-[20px] gap-5 md:gap-8">
                         <li

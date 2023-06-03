@@ -1,6 +1,5 @@
 import React from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
-
 import Wrapper from "./Wrapper";
 import SkillIcon from "./SkillIcon";
 import Service from "./Service";
