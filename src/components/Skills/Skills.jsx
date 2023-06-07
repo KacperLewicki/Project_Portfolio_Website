@@ -1,24 +1,24 @@
 import React from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
-import Wrapper from "./Wrapper";
-import SkillIcon from "./SkillIcon";
+import Wrapper from "../../common/Wrapper";
+import SkillIcon from "../Skills/SkillIcon";
 import Service from "./Service";
 import Portfolio from "./Portfolio";
-import Achievements from "./Achievements";
-import Div from "./Div";
+import Achievements from "../Achievements/Achievements";
+import Div from "../../common/Div";
 
 // IMAGES
-import sk1 from "../assets/sk-1.png";
-import sk2 from "../assets/sk-2.png";
-import sk3 from "../assets/sk-3.png";
-import sk4 from "../assets/sk-4.png";
-import sk5 from "../assets/sk-5.png";
-import sk6 from "../assets/sk-6.png";
-import sk7 from "../assets/sk-7.png";
+import sk1 from "../../assets/sk-1.png";
+import sk2 from "../../assets/sk-2.png";
+import sk3 from "../../assets/sk-3.png";
+import sk4 from "../../assets/sk-4.png";
+import sk5 from "../../assets/sk-5.png";
+import sk6 from "../../assets/sk-6.png";
+import sk7 from "../../assets/sk-7.png";
 
-import pe1 from "../assets/sec-3-p-e-1.png";
-import pe2 from "../assets/sec-3-p-e-2.png";
-import pe3 from "../assets/sec-3-p-e-3.png";
+import pe1 from "../../assets/sec-3-p-e-1.png";
+import pe2 from "../../assets/sec-3-p-e-2.png";
+import pe3 from "../../assets/sec-3-p-e-3.png";
 
 /*<a href="https://www.flaticon.com/free-icons/node-js" title="node js icons">Node js icons created by Freepik - Flaticon</a>*/
 /*<a href="https://www.flaticon.com/free-icons/typescript" title="typescript icons">Typescript icons created by Freepik - Flaticon</a>*/

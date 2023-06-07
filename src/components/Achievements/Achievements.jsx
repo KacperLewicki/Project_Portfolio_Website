@@ -1,8 +1,8 @@
 import React from "react";
-import { achievements } from "../data";
+import { achievements } from "../../data";
 import NumInc from "./NumInc";
-import dashedCircle from "../assets/dashed-circle.svg";
-import Div from "./Div";
+import dashedCircle from "../../assets/dashed-circle.svg";
+import Div from "../../common/Div";
 
 const Achievements = () => {
     return (

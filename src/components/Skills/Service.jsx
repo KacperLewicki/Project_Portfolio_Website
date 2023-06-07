@@ -1,5 +1,5 @@
 import React from "react";
-import Div from "./Div";
+import Div from "../../common/Div";
 
 const Service = ({ num, title, desc, data }) => {
     return (

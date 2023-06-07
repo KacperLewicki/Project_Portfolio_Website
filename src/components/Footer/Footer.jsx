@@ -1,7 +1,7 @@
 import React from "react";
-import Wrapper from "./Wrapper";
-import gmailIcon from "../assets/email-icon.png";
-import { scrollTo } from "../helper";
+import Wrapper from "../../common/Wrapper";
+import gmailIcon from "../../assets/email-icon.png";
+import { scrollTo } from "../../helper";
 
 const Footer = () => {
     return (

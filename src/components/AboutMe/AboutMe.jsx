@@ -1,10 +1,10 @@
 import React from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
-import Wrapper from "./Wrapper";
+import Wrapper from "../../common/Wrapper";
 
-import pe1 from "../assets/sec-2-p-e-1.png";
-import pe2 from "../assets/sec-2-p-e-2.png";
-import Div from "./Div";
+import pe1 from "../../assets/sec-2-p-e-1.png";
+import pe2 from "../../assets/sec-2-p-e-2.png";
+import Div from "../../common/Div";
 
 const AboutMe = () => {
     const { scrollY } = useScroll();

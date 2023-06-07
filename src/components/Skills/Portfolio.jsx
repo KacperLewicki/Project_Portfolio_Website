@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import { projects } from "../data";
-import Div from "./Div";
+import { projects } from "../../data";
+import Div from "../../common/Div";
 
 const Portfolio = () => {
 

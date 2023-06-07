@@ -1,8 +1,7 @@
 import React from "react";
-
-import Wrapper from "./Wrapper";
-import Form from "./Form";
-import Div from "./Div";
+import Wrapper from "../../common/Wrapper";
+import Form from "../Form/Form";
+import Div from "../../common/Div";
 
 const Contact = () => {
     return (

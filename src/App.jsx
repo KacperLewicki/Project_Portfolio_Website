@@ -1,8 +1,8 @@
-import HeroBanner from "./components/HeroBanner";
-import AboutMe from "./components/AboutMe";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import HeroBanner from "./components/HeroBanner/HeroBanner";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Skills from "./components/Skills/Skills";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
     return (
