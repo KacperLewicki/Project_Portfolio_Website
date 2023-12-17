@@ -53,26 +53,21 @@ const Skills = () => {
                     <SkillIcon path={sk7} />
                 </Div>
                 
-
-              
                 <div className="flex items-end justify-between flex-wrap-reverse py-[50px] md:py-[100px] relative">
                     
                     <div className="md:max-w-[65%] flex flex-col gap-6 md:gap-10">
                         <Service
-                           
-                            title="CMS-app-in-express-mongodb"
+                            title="CMS app"
                             desc="The webpage for storing data and quizzes is based on PUGjs templates, 
                             which are used to create frontend layout on backend side with usage of express.js and MongoDB."
                             data={[
                                 "Javascript",
                                 "Express.js",
-                                "MongoDB",
-                                
+                                "MongoDB",        
                             ]}
                         />
-                        <Service
-                           
-                            title="Registration form and login on the website"
+                        <Service    
+                            title="Registration form app"
                             desc="One of my projects is a login page that communicates via API. 
                             On Backend, a logic validating the input data with usage of MySQL, express.js and cors is implemented. 
                             If correct data is provided, you are redirected to a home page of a project."
@@ -83,26 +78,21 @@ const Skills = () => {
                                 "MySQL",
                                 "Bootstrap",
                                 "Cors",
-                                "Axios",
-                                
+                                "Axios",     
                             ]}
                         />
                         <Service
-                           
-                            title="Diamonds-game"
+                            title="Diamonds game"
                             desc="The Diamonds game project is about moving rows and columns of diamonds. 
                             If you connect enough of one kind of them, they will disappear and you will get points. Empty fields will refill."
                             data={[
                                 "Javascript",
-                                "OOP"
-                                
+                                "OOP"  
                             ]}
                         />
                         
                     </div>
                    
-
-                  
                     <div className="flex flex-wrap justify-center gap-2 md:gap-0 md:flex-col text-[40px] md:text-[90px] 
                     2xl:text-[110px] 
                     leading-[40px] md:leading-[95px] 2xl:leading-[123px] 
@@ -113,13 +103,11 @@ const Skills = () => {
                             Projects
                          
                         </span>
-                
-                       
+                  
                     </div>
                    
                 </div>
-                
-
+            
                 <Portfolio />
                 <Achievements />
             </Wrapper>

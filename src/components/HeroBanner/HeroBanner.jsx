@@ -1,12 +1,10 @@
 import { useRef } from "react";
 import { motion } from "framer-motion";
-
 import Wrapper from "../../common/Wrapper";
-import man from "../../assets/man.png";
-import externalLinkIcon from "../../assets/external-link-icon.png";
 import gmailIcon from "../../assets/email-icon.png";
 import { scrollTo } from "../../helper";
 import { useFollowPointer } from "../../hooks/useFollowPointer";
+import man from "../../assets/man.png";
 
 const HeroBanner = () => {
     const ref = useRef(null);
@@ -15,21 +13,17 @@ const HeroBanner = () => {
         <div
             id="hero"
             className="w-full h-[104vh] relative bg-[] overflow-hidden"
-        >
-            
+        >  
             <motion.span
                 ref={ref}
                 animate={{ x, y }}
                 className="hidden md:block sec-1-bg-gradient-1-desktop md:w-[1120px] 2xl:w-[1420px] md:h-[1119px] 2xl:h-[1419px] absolute md:left-[1000px] 2xl:left-[1309px] -top-[709px]"
             />
             <span className="hidden md:block sec-1-bg-gradient-2-desktop md:w-[1120px] 2xl:w-[1420px] md:h-[1119px] 2xl:h-[1419px] absolute left-[105px] top-[672px] md:top-[500px] 2xl:top-[672px]" />
-            
-
-           
+        
             <span className="md:hidden sec-1-bg-gradient-1-mobile absolute w-[212px] h-[211px] left-[285px] -top-[25px]" />
             <span className="md:hidden sec-1-bg-gradient-2-mobile absolute w-[636px] h-[635px] -left-[334px] top-[672px]" />
             
-
             <Wrapper>
                
                 <motion.div
@@ -71,9 +65,7 @@ const HeroBanner = () => {
                         </li>
                     </ul>
                 </motion.div>
-                
-
-                
+               
                 <motion.div
                     className="flex justify-center text-center mt-14 mb-10 relative"
                     initial={{ opacity: 0, scale: 0.5 }}
@@ -86,25 +78,29 @@ const HeroBanner = () => {
                     </h1>
                 </motion.div>
                 
-
-                
                 <motion.div
-                    className="flex flex-col mb-10 text-center md:text-left text-[16px] md:text-[18px] leading-[24px] md:leading-[28px] relative"
+                    className="flex flex-col mb-10 text-center md:text-left text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] relative"
                     initial={{ y: 200, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.7, delay: 0.25 }}
-                >
-                    <div className="font-light mb-4">
-                        👋 Hi, I Am{" "}
-                        <span className="font-semibold">Kacper Lewicki</span>
-                    </div>
-                    <div className="max-w-[610px]">
-                     I've been programming in JavaScript for a long time. I am constantly enriching my knowledge not only through courses, but also by creating my own applications and websites.
-                    </div>
+>
+                <div className="font-light mb-6 flex items-center justify-center md:justify-start">
+                    👋 Hi, I Am {" "}
+                        <span className="font-semibold ml-2 flex items-center">
+                             Kacper Lewicki <img className="w-16 ml-2" src={man} alt=""></img>
+                        </span>
+        
+                </div>
+                <div className="max-w-[610px]">
+                    I've been programming in JavaScript for a long time. 
+                    I am constantly enriching my knowledge 
+                    not only through courses, but also by creating my own 
+                    applications and websites.
+                </div>
+   
                 </motion.div>
-                
-                
-                
+
+                 
                 <motion.div
                     className="hidden md:flex gap-8 relative z-10"
                     initial={{ y: 300, opacity: 0 }}
@@ -113,31 +109,7 @@ const HeroBanner = () => {
                 >
                 
                 </motion.div>
-                
 
-                
-                <motion.div
-                    className="w-[300px] md:w-[460px] 2xl:w-[360px] absolute bottom-0 left-[85%] -translate-x-1/2"
-                    initial={{ y: 200, x: "-50%" }}
-                    animate={{ y: 0 }}
-                    transition={{ duration: 0.5 }}
-                >
-                    <img src={man} alt="" />
-
-                    
-                    <div
-                        className="absolute top-[140px] -right-10 2xl:top-[30px] 2xl:-right-10 w-[120px] h-[120px] rounded-full bg-white/[0.7] flex flex-col justify-center items-center gap-2 backdrop-blur-sm cursor-pointer transition-transform scale-[0.65] md:scale-100 active:scale-[0.55] md:active:scale-90"
-                        onClick={() => scrollTo("contact")}
-                    >
-                        <img
-                            src={externalLinkIcon}
-                            alt=""
-                            className="w-[15px]"
-                        />
-                        <div className="text-black">Hire Me</div>
-                    </div>
-                    
-                </motion.div>
                
             </Wrapper>
         </div>
