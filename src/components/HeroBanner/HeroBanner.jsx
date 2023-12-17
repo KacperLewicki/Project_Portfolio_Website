@@ -81,7 +81,7 @@ const HeroBanner = () => {
                     transition={{ duration: 0.5 }}
                 >
                     <h1 className="text-[50px] md:text-[120px] 2xl:text-[189px] leading-[50px] md:leading-[125px]  2xl:leading-[192px] font-oswald uppercase">
-                        I Am Front-End Developer
+                        I Am Power Platform Developer 
                        
                     </h1>
                 </motion.div>
