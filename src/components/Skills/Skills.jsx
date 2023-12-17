@@ -59,7 +59,7 @@ const Skills = () => {
                     
                     <div className="md:max-w-[65%] flex flex-col gap-6 md:gap-10">
                         <Service
-                            num="1"
+                           
                             title="CMS-app-in-express-mongodb"
                             desc="The webpage for storing data and quizzes is based on PUGjs templates, 
                             which are used to create frontend layout on backend side with usage of express.js and MongoDB."
@@ -71,7 +71,7 @@ const Skills = () => {
                             ]}
                         />
                         <Service
-                            num="2"
+                           
                             title="Registration form and login on the website"
                             desc="One of my projects is a login page that communicates via API. 
                             On Backend, a logic validating the input data with usage of MySQL, express.js and cors is implemented. 
@@ -88,7 +88,7 @@ const Skills = () => {
                             ]}
                         />
                         <Service
-                            num="3"
+                           
                             title="Diamonds-game"
                             desc="The Diamonds game project is about moving rows and columns of diamonds. 
                             If you connect enough of one kind of them, they will disappear and you will get points. Empty fields will refill."
