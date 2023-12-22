@@ -17,6 +17,4 @@ I've worked on a variety of exciting projects, each presenting unique challenges
 - **Frontend** : Developed using React.js, ensuring dynamic and responsive user interfaces.
 - **Styling** : Styled with Tailwind CSS for a sleek, modern, and responsive design.
 
-## Contact
 
-Interested in collaborating or learning more about my work? Visit the contact section of the site to get in touch.
